@@ -9,8 +9,8 @@ branches:
 build: off  
 
 install:
-  - java -jar ./artifacts/app-mbank.jar &
+  -  chmod +x gradlew
+  - java -jar ./Artifacts/app-order.jar &
 
 build_script:
-  - chmod +x gradlew
-  - ./gradlew test --info
+  - ./gradlew test
