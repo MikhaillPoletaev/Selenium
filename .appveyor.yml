@@ -9,8 +9,8 @@ branches:
 build: off  
 
 install:
-  -  chmod +x gradlew
   - java -jar ./Artifacts/app-order.jar &
 
 build_script:
   - ./gradlew test
+  - chmod +x gradlew
