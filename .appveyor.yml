@@ -12,5 +12,5 @@ install:
   - java -jar ./Artifacts/app-order.jar &
 
 build_script:
-  - ./gradlew test
   - chmod +x gradlew
+  - ./gradlew test
