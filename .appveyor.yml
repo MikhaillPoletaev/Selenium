@@ -9,9 +9,8 @@ branches:
 build: off  
 
 install:
-  - java -jar ./Selenium/artifacts/app-order.jar &
+  - java -jar /Selenium/artifacts/app-order.jar &
 
 build_script:
   - chmod +x gradlew
-  - ./gradlew test
-  - --info
+  - ./gradlew test --info
